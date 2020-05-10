@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="/"><img id="logo" src="./assets/logo.svg" alt=""></a>
+      <nav>
+        <ul id="menu">
+          <li><a href="/">Hospede em sua acomodação</a></li>
+          <li><a href="/">Hospede uma experiência</a></li>
+          <li><a href="/">Ajuda</a></li>
+          <li><a href="/">Entrar</a></li>
+          <li><a href="/">Cadastre-se</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="places">
+      <ul id="places-ul">
+        <li><a href="/">Lugares para ficar</a></li>
+        <li><a href="/">Estadias longas</a></li>
+        <li><a href="/">Experiências</a></li>
+        <li><a href="/">Experiências Online</a></li>
+      </ul>
+    </div>
+    
+    <div id="search-bedrooms">
+      <div id="local">
+        <p><strong>TIPO DO DORMITÓRIO</strong></p>
+        <input type="text" placeholder="Qual dormitório você prefere?">
+      </div>
+
+      <div id="checkin-checkout">
+        <p><strong>PREÇO</strong></p>
+        <input type="text" id="datecheckin" placeholder="A partir de R$">
+        <input type="text" id="datecheckout" placeholder="Abaixo de R$">
+      </div>
+      
+      <div id="hospedes">
+        <p><strong>HÓSPEDES</strong></p>  
+        <label>Nº</label>
+        <input type="number">
+      </div>
+
+      <div id="buscar">
+        <a href="/">Buscar</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <h1>Dormitórios</h1>
+
+    <section id="bedrooms"></section>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
