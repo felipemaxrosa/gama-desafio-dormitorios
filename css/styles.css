@@ -105,18 +105,28 @@ img {
   flex-wrap: wrap;
 }
 
-#search-bedrooms #buscar {
-  width: 200px;
-}
 
-#buscar a {
-  background: blue;
-  padding: 20px;
+#buscar-btn {
+  width: 200px;  
+  height: 40px;
   text-align: center;
-  width: 300px;
-  height: 80px;
-  border: 1px solid black;
-  border-radius: 5px;
-  background: gray;
-}
+  justify-content: center;
+  cursor: pointer !important;
+  display: flex !important;
+  margin: 0px !important;
+  position: center !important;
+  
+  text-decoration: none !important;
+  font-weight: bold;
+  border-color: black !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  border-radius: 8px !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  outline: none !important;
 
+  border: none !important;
+  background: gray;
+  color: #fff;
+}

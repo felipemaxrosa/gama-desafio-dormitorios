@@ -23,6 +23,7 @@
       </nav>
     </header>
 
+    
     <div id="places">
       <ul id="places-ul">
         <li><a href="/">Lugares para ficar</a></li>
@@ -32,16 +33,18 @@
       </ul>
     </div>
     
+    
+ 
     <div id="search-bedrooms">
-      <div id="local">
+      <div id="tipo">
         <p><strong>TIPO DO DORMITÓRIO</strong></p>
-        <input type="text" placeholder="Qual dormitório você prefere?">
+        <input id="inputTipoDormitorio" type="text" placeholder="qual dormitório você prefere?">
       </div>
 
-      <div id="checkin-checkout">
+      <div id="price">
         <p><strong>PREÇO</strong></p>
-        <input type="text" id="datecheckin" placeholder="A partir de R$">
-        <input type="text" id="datecheckout" placeholder="Abaixo de R$">
+        <input type="text" id="datecheckin" placeholder="a partir de R$">
+        <input type="text" id="datecheckout" placeholder="abaixo de R$">
       </div>
       
       <div id="hospedes">
@@ -51,8 +54,10 @@
       </div>
 
       <div id="buscar">
-        <a href="/">Buscar</a>
-      </div>
+        <button id="buscar-btn">
+          Buscar
+        </button>
+      </div>    
     </div>
 
     <hr>
@@ -60,10 +65,6 @@
     <h1>Dormitórios</h1>
 
     <section id="bedrooms"></section>
-
-
-
-
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
