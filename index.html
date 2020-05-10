@@ -38,13 +38,18 @@
     <div id="search-bedrooms">
       <div id="tipo">
         <p><strong>TIPO DO DORMITÓRIO</strong></p>
-        <input id="inputTipoDormitorio" type="text" placeholder="qual dormitório você prefere?">
+        <select name="dormitorio" id="selectDormitorio">
+          <option value="all">Todos</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
       </div>
 
       <div id="price">
         <p><strong>PREÇO</strong></p>
-        <input type="text" id="datecheckin" placeholder="a partir de R$">
-        <input type="text" id="datecheckout" placeholder="abaixo de R$">
+        <input type="text" id="priceAPartirDe" placeholder="a partir de R$">
+        <input type="text" id="priceAte" placeholder="abaixo de R$">
       </div>
       
       <div id="hospedes">
@@ -54,7 +59,7 @@
       </div>
 
       <div id="buscar">
-        <button id="buscar-btn">
+        <button id="buscar-btn" onclick="buscar()">
           Buscar
         </button>
       </div>    

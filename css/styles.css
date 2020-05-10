@@ -1,12 +1,25 @@
+* {
+  font-family: 'Patrick Hand', cursive;
+}
+
 body, ul, li, p {
   margin: 0;
   padding: 0;
   list-style: none;
   font-size: 1.2rem;
-  font-family: 'Patrick Hand', cursive;
 }
 
 input {
+  margin-top: 5px;
+  width: 200px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+select {
   margin-top: 5px;
   width: 200px;
   height: 30px;
@@ -87,6 +100,7 @@ img {
 }
 
 .card {
+  max-width: 400px;
   align-items: center;
   text-align: center;
   margin: 10px;
@@ -128,5 +142,10 @@ img {
 
   border: none !important;
   background: gray;
+  color: #fff;
+}
+
+#buscar-btn:hover {
+  background: #da552f;
   color: #fff;
 }
